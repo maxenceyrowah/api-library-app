@@ -1,0 +1,24 @@
+GET http://localhost:3000/authors
+
+###
+
+GET http://localhost:3000/books
+
+###
+POST http://localhost:3000/authors
+Content-Type: application/json
+
+{
+    "name": "George Orwell",
+    "birthYear": 1903
+}
+
+###
+POSt http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "Apprendre Mongoose",
+    "publishedYear":2025,
+    "author": "67dd80ba7a7f3aab6e5a39ff"
+}
